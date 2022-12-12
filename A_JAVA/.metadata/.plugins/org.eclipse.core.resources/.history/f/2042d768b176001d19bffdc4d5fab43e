@@ -1,0 +1,5 @@
+package com.mc.j_inner;
+
+public class MissingRequiredPropertyException extends RuntimeException{
+
+}

@@ -1,0 +1,33 @@
+package com.mc.coffeemanager.service;
+
+public class OrderStatus {
+	
+	private int code;
+	private String desc;
+	
+	public static final OrderStatus OK = new OrderStatus(0, "주문 생성 성공");
+	
+	private OrderStatus(int code, String desc) {
+		this.code = code;
+		this.desc = desc;
+	}
+	
+	public boolean isOk() {
+		
+	}
+	
+	public boolean isComplete() {
+		
+	}
+	
+	public boolean isFail() {
+		
+	}
+	
+	public String desc() {
+		
+	}
+	
+	
+
+}

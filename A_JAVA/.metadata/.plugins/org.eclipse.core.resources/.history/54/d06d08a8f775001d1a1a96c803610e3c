@@ -1,0 +1,9 @@
+package com.mc.lang.wrapper;
+
+public class Test {
+	
+	private String subject;
+	private String professor;
+	private int failedStudent;
+
+}

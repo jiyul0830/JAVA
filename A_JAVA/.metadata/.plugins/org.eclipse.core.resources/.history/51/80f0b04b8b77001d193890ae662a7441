@@ -1,0 +1,14 @@
+package com.mc.util.collection.set.mc;
+
+import com.mc.util.collection.dto.Music;
+
+public class McHashSetTest {
+
+	public void studySet() {
+		McHashSet<Music> musicSet = new McHashSet<>();
+		musicSet.add(new Music("김경호", "금지된 사랑"));
+		musicSet.add(new Music("김경호", "금지된 사랑"));
+		musicSet.add(new Music("김경호", "와이;ㄴ"));
+		
+	}
+}

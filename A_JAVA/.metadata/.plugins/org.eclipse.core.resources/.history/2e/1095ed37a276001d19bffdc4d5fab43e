@@ -1,0 +1,9 @@
+package com.mc.j_inner.instance;
+
+public class Car {
+	
+	private String name;
+	private int price;
+	private String size;
+
+}

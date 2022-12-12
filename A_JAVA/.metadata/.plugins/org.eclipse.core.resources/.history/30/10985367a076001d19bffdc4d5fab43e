@@ -1,0 +1,14 @@
+package com.mc.util.app;
+
+import java.util.Calendar;
+
+public class DayCalculator {
+	
+	public int calDDay(int year, int month, int date) {
+		
+		Calendar calendar = Calendar.getInstance();
+		
+		return 0;
+	}
+
+}

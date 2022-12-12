@@ -1,0 +1,18 @@
+package com.mc.tour.service;
+
+import java.time.LocalDateTime;
+
+public class Order {
+	
+	private Airline airline; // 주문한 커피
+	private LocalDateTime orderTime;
+	private OrderStatus status;
+	
+	public static Order createOrder(Coffee coffee, int orderCnt) {
+		Order order = new Order(coffee, orderCnt);
+		OrderStatus status = checkOrderStatus(coffee, orderCnt);
+		order.status = status;
+		return order;
+	}
+
+}

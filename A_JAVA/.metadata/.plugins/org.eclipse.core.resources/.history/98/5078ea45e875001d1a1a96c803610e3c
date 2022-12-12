@@ -1,0 +1,18 @@
+package com.mc.exception.test;
+
+import com.mc.exception.custom.TimeOutException;
+
+public class Run {
+
+	public static void main(String[] args) {
+		
+		SmartPhone phone = new SmartPhone();
+		
+		try {
+			phone.sendMessage();
+		} catch (TimeOutException e) {
+			System.out.println("상대방 서버의 응답이 없어 서비스를 제공하지 못함");
+		}
+		
+	}
+}

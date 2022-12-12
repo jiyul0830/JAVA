@@ -1,0 +1,36 @@
+package com.mc.coffeemanager.service;
+
+public class OrderStatus {
+	
+	private int code;
+	private String desc;
+	
+	public static final OrderStatus OK = new OrderStatus(0, "주문 생성 성공");
+	public static final OrderStatus FAIL_CAUSE_SOLDOUT = new OrderStatus(1, "품절로 인한 주문 실패");
+	public static final OrderStatus FAIL_CAUSE_STOCK = new OrderStatus(1, "재고 부족으로 인한 주문 실패");
+	public static final OrderStatus FAIL_CAUSE_SOLDOUT = new OrderStatus(1, "품절로 인한 주문 실패");
+	
+	private OrderStatus(int code, String desc) {
+		this.code = code;
+		this.desc = desc;
+	}
+	
+	public boolean isOk() {
+		
+	}
+	
+	public boolean isComplete() {
+		
+	}
+	
+	public boolean isFail() {
+		
+	}
+	
+	public String desc() {
+		
+	}
+	
+	
+
+}

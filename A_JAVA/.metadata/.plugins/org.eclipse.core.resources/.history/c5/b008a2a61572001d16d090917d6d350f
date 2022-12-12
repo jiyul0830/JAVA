@@ -1,0 +1,9 @@
+package com.mc.d_encapsulation.after;
+
+public class Computer extends Product{
+
+	// 자바에서 상속은 단일 상속만 가능하다.
+	// 클래스의 부모 클래스는 하나만 존재한다.
+	
+	
+}

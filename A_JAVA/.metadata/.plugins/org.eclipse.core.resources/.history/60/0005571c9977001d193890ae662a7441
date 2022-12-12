@@ -1,0 +1,12 @@
+package com.mc.util.collection.map;
+
+public class _Map {
+	
+	//Map
+	//Key와 Value쌍(Entry) 으로 데이터를 저장
+	//Key : 데이터를 식별하기, 접근하기 위한 데이터
+	//			데이터를 식별하기 위한 값이기 때문에 중복값을 허용하지 않음
+	//Value : 저장하고자 하는 데이터
+	//			중복저장 허용
+
+}

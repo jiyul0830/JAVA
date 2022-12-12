@@ -1,0 +1,9 @@
+package com.mc.exception.custom;
+
+//예외클래스를 직접만들어보자.
+
+//Checked Exception : Exception클래스를 상속받은 클래스를 만들면, Checked Exception으로 사용할 수 있다.
+//UnChecked Exception(Runtime Exception) : RuntimeException을 상속받은 클래스를 만들면 UnChecked Exception으로 사용할 수 있다.
+public class TimeOutException {
+
+}

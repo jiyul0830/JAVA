@@ -1,0 +1,11 @@
+package com.mc.util.collection.list.mc;
+
+import com.mc.util.collection.list.mc.node.Node;
+
+public class McLinkedList<E> {
+	
+	private Node<E> head;
+	
+	
+
+}

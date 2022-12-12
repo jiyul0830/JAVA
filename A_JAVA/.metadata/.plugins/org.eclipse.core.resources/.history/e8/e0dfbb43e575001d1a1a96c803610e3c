@@ -1,0 +1,18 @@
+package com.mc.exception.custom;
+
+//예외클래스를 직접만들어보자.
+
+//Checked Exception : Exception클래스를 상속받은 클래스를 만들면, Checked Exception으로 사용할 수 있다.
+//UnChecked Exception(Runtime Exception) : RuntimeException을 상속받은 클래스를 만들면 UnChecked Exception으로 사용할 수 있다.
+public class TimeOutException extends Exception{
+
+	// 객체직렬화시에 사용
+	// 통신에서 객체를 전달하기 위해 디지털신호로 표현하기 위한 2진값으로 변경
+	private static final long serialVersionUID = -6289611015850847914L;
+	
+	
+	
+
+	
+	
+}

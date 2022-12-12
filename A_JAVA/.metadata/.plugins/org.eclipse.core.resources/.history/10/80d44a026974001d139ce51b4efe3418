@@ -1,0 +1,12 @@
+package com.mc.coffeemanager.service;
+
+public class Coffee {
+	
+	private String name;
+	private int stock;
+	private int totalSalesCnt;
+	private int safetyStock;
+	private int cost;
+	private int price;
+
+}

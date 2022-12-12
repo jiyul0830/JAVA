@@ -1,0 +1,12 @@
+package com.mc.coffeemanager.service;
+
+public class SeasonCoffee extends Coffee{
+	
+	private int[] seasonMonth;
+
+	public SeasonCoffee(String name, int stock, int totalSalesCnt, int safetyStock, int cost, int price) {
+		super(name, stock, totalSalesCnt, safetyStock, cost, price);
+		// TODO Auto-generated constructor stub
+	}
+
+}

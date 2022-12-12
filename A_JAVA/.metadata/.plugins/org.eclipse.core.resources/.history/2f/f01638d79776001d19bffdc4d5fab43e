@@ -1,0 +1,31 @@
+package com.mc.util;
+
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+public class _Date {
+	
+	public void studyDate() {
+		Date today = new Date();
+		System.out.println(today);
+		
+		System.out.println("연도 : " + (today.getYear()+1900));
+		System.out.println("월   : " + (today.getMonth()+1));
+		System.out.println("일   : " + today.getDate());
+		System.out.println("시   : " + today.getHours());
+		System.out.println("분   : " + today.getMinutes());
+		System.out.println("초   : " + today.getSeconds());
+	}
+	
+	public void studyCalendar() {
+		
+		Calendar calendar = Calendar.getInstance();
+		
+	}
+	
+	
+	
+	
+
+}

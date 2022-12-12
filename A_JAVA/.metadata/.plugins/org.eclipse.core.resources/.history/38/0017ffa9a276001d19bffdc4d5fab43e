@@ -1,0 +1,42 @@
+package com.mc.j_inner.instance;
+
+public class Car {
+	
+	private String name;
+	private int price;
+	private String size;
+	
+	//inner 클래스를 사용해서 속성을 초기화
+	public class Builder{
+		
+		public Builder name(String name) {
+			
+			//필드변수에 접근해서 초기화
+			//내부클래스에서 외부클래스의 필드에 접근
+			Car.this.name = name;
+			return this;
+		}
+		
+		public Builder price(int price) {
+			Car.this.price = price;
+			return this;
+		}
+		
+		public Builder size(String size) {
+			Car.this.price = price;
+			return this;
+		}
+	}
+	
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Car [name=" + name + ", price=" + price + ", size=" + size + "]";
+	}
+	
+	
+
+}

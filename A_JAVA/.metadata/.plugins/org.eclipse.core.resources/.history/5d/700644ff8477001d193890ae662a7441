@@ -1,0 +1,22 @@
+package com.mc.util.collection.set;
+
+import java.util.HashSet;
+
+public class _Set {
+	
+	//Set
+	//Set은 집합연산을 위해 만들어진 자료구조
+	//저장되는 값들의 순서를 유지하지 않는다.
+	//저장되는 값들의 중복을 허용하지 않는다.
+	//구현 클래스  : HashSet, LinkedHashSet(순서가 유지되는 Set)
+	
+	public void studySet() {
+		
+		Set<Music> set = new HashSet<>();
+		
+		
+	}
+	
+	
+
+}

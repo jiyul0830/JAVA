@@ -1,0 +1,40 @@
+package com.mc.util.collection.list.mc;
+
+import com.mc.util.collection.list.mc.node.Node;
+
+public class McLinkedList<E> {
+	
+	private Node<E> head;  //첫 노드를 저장
+	private int size;
+	
+	public McLinkedList() {}
+	
+	public int size() {
+		
+	}
+	
+	public void add(E e) {
+		
+	}
+	
+	public E get(int index) {
+		
+	}
+	
+	public E set(int index, E element) {
+		
+	}
+	
+	public E remove(int index) {
+		
+	}
+
+	@Override
+	public String toString() {
+		return "";
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,24 @@
+package com.mc.coffeemanager.service;
+
+public class Coffee {
+	
+	private String name;
+	private int stock;
+	private int totalSalesCnt;
+	private int safetyStock;
+	private int cost;
+	private int price;
+	
+	public Coffee(String name, int stock, int totalSalesCnt, int safetyStock, int cost, int price) {
+		super();
+		this.name = name;
+		this.stock = stock;
+		this.totalSalesCnt = totalSalesCnt;
+		this.safetyStock = safetyStock;
+		this.cost = cost;
+		this.price = price;
+	}
+	
+	
+
+}

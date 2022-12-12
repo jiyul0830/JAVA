@@ -1,0 +1,10 @@
+package com.mc.lang.wrapper;
+
+public class WrapperClass {
+	
+	// primitive type의 값을 객체로 다루기 위해 제공되는 클래스
+	
+	
+	
+
+}

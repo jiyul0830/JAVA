@@ -1,0 +1,17 @@
+package com.mc.util.collection.set.mc;
+
+public class McHashSet<E> {
+	
+	private Object[] elementData;
+	private int capacity;
+	private int size;
+	
+	public McHashSet() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public McHashSet(int initialCapacity) {
+	}
+	
+
+}

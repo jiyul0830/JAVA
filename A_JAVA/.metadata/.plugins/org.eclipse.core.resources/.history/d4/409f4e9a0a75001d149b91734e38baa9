@@ -1,0 +1,30 @@
+package com.mc.coffeemanager.service;
+
+public class OrderStatus {
+	
+	private int code;
+	private String desc;
+	
+	private OrderStatus() {
+		
+	}
+	
+	public boolean isOk() {
+		
+	}
+	
+	public boolean isComplete() {
+		
+	}
+	
+	public boolean isFail() {
+		
+	}
+	
+	public String desc() {
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,27 @@
+package com.mc.util.collection.set.mc;
+
+public class McHashSet<E> {
+	
+	private Object[] table;
+	private int capacity = 4;
+	private int size;
+	
+	public McHashSet() {
+		elementData = new Object[capacity];
+	}
+	
+	public McHashSet(int initialCapacity) {
+		this.capacity = initialCapacity;
+		elementData = new Object[capacity];
+	}
+	
+	//해시함수 : 사용자가 넣은 요소를 0 ~ eleme
+	
+	
+	
+	
+	
+	
+	
+	
+}

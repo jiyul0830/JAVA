@@ -1,0 +1,65 @@
+package com.mc.util.collection.set.mc;
+
+import java.util.Arrays;
+
+import com.mc.util.collection.list.mc.node.Node;
+
+public class McHashSet<E> {
+	
+	private Node<E>[] table;
+	private int capacity = 4;
+	private int size;
+	
+	@SuppressWarnings("unchecked")
+	public McHashSet() {
+		table = new Node[capacity];
+	}
+	
+	@SuppressWarnings("unchecked")
+	public McHashSet(int initialCapacity) {
+		this.capacity = initialCapacity;
+		table = new Node[capacity];
+	}
+	
+	//해시함수 : 사용자가 넣은 요소를 [0 ~ table의 크기 - 1] 사이의 양의 정수 값으로 변환해주는 해시 함수
+	private int hash(E e) {
+		// hashCode는 음수도 반환
+		// 절대값으로 변경
+		int val = Math.abs(e.hashCode());
+		val %= capacity;
+		
+		System.out.println("해시값은 : " + val);
+		return val;
+	}
+	
+	public void add(E e) {
+		int idx = hash(e);
+		
+		if(table[idx] == null) {
+			table[idx] = new Node<E>(null, null, e);
+		}else {
+			Node<E> tmp = table[idx];
+			//중복 데이터 임으로 추가 안함
+			if(tmp.getData().equals(e)) return;
+			
+			
+		}
+	}
+	
+
+	
+	@Override
+	public String toString() {
+		Object[] temp = new Object[size];
+		
+		for (int i = 0; i < temp.length; i++) {
+			temp[i] = table[i];
+		}
+
+		return Arrays.toString(temp);
+	}
+	
+	
+	
+	
+}

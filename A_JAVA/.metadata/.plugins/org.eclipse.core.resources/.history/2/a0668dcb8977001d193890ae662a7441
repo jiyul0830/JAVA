@@ -1,0 +1,9 @@
+package com.mc.util.collection.set.mc;
+
+public class McHashSet<E> {
+	
+	
+	
+	
+
+}

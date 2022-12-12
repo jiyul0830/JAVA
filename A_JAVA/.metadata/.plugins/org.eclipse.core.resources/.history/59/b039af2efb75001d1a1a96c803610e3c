@@ -1,0 +1,13 @@
+package com.mc.lang.string;
+
+public class _String {
+	
+	private String str = "			The String class represents character strings.			";
+	
+	public void readAPIDocument() {
+		//1. str의 길이를 출력하세요.
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.mc.coffeemanager.service;
+
+public class OrderStatus {
+	
+	private int code;
+	private String desc;
+	
+	
+	private OrderStatus() {
+		
+	}
+	
+
+}

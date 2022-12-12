@@ -1,0 +1,19 @@
+package com.mc.lang.wrapper;
+
+public class WrapperClass {
+	
+	// primitive type의 값을 객체로 다루기 위해 제공되는 클래스
+	
+	// primitive 	-> wrapper
+	// byte    		->  Byte
+	// short 		->	Short
+	// int			->	Integer
+	// long			->	Long
+	// float		->	Float
+	// double		->	Double
+	// boolean		->  Boolean
+	// char			->	Character
+	
+	
+
+}

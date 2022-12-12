@@ -1,0 +1,5 @@
+package com.mc.coffeemanager.service.code;
+
+public enum OrderStatus {
+
+}

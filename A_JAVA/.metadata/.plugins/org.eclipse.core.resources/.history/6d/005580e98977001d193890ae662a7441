@@ -1,0 +1,12 @@
+package com.mc.util.collection.set.mc;
+
+public class McHashSet<E> {
+	
+	private Object[] elementData;
+	private int capacity;
+	private int size;
+	
+	
+	
+
+}

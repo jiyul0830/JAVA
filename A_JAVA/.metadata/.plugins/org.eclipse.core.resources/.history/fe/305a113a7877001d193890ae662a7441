@@ -1,0 +1,5 @@
+package com.mc.util.collection.list.mc.node;
+
+public class Node<E> {
+
+}

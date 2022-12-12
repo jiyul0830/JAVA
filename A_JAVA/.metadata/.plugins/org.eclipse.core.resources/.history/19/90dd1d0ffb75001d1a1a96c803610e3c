@@ -1,0 +1,11 @@
+package com.mc.lang.string;
+
+public class _String {
+	
+	private String str = "";
+	
+	public void  readAPIDocument() {
+		
+	}
+
+}

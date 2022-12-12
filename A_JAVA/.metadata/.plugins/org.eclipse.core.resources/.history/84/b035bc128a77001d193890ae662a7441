@@ -1,0 +1,18 @@
+package com.mc.util.collection.set.mc;
+
+public class McHashSet<E> {
+	
+	private Object[] elementData;
+	private int capacity = 4;
+	private int size;
+	
+	public McHashSet() {
+		
+	}
+	
+	public McHashSet(int initialCapacity) {
+		this.capacity = initialCapacity;
+	}
+	
+
+}

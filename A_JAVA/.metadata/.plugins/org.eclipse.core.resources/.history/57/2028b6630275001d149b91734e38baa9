@@ -1,0 +1,9 @@
+package com.mc.coffeemanager.service;
+
+public class PercentDiscount {
+	
+	public static int calDiscountAboutOrderPrice() {
+		
+	}
+
+}

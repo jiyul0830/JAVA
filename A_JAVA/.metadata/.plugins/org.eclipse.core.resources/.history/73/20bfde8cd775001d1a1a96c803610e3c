@@ -1,0 +1,21 @@
+package com.mc.exception.checked;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class _Exception {
+	
+	public void studyCheckedException() {
+		
+		try {
+			URL url = new URL("https://www.naver.com");
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+
+}

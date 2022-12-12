@@ -1,0 +1,11 @@
+package com.mc.util.collection.list.mc;
+
+
+//Generic : 클래스 내부에서 사용할 타입을 외부에서 결정하는 것.
+//			클래스가 인스턴스화 되는 시점에 타입이 결정
+//			클래스명 뒤에 <E> 와 같은 형태로 Generic을 지정할 수 있다.
+//			Generic은 어떤 알파벳이든 사용할 수 있지만, 주로 아래의 알파벳이 많이 사용된다.,
+
+public class McList<E> {
+
+}

@@ -1,0 +1,50 @@
+package com.mc.util.collection.list.mc;
+
+
+//Generic : 클래스 내부에서 사용할 타입을 외부에서 결정하는 것.
+//			클래스가 인스턴스화 되는 시점에 타입이 결정
+//			클래스명 뒤에 <E> 와 같은 형태로 Generic을 지정할 수 있다.
+//			Generic은 어떤 알파벳이든 사용할 수 있지만, 주로 아래의 알파벳이 많이 사용된다.
+//			Generic은 한 클래스 내에서 여러 개 지정이 가능
+//			Generic에 지정할 타입에 제한을 걸 수 있다.
+//				<? extends List> : List의 후손 타입만 Generic으로 지정 가능
+//				<? super List>	 : List의 선조 타입만 Generic으로 지정 가능
+
+// E : element, 배열 기반 구조에서 element의 타입을 결정하는 제네릭일 때 e
+// T : Type
+// K : Map에서 key의 타입을 generic으로 지정할 때 사용
+// V : Map에서 value의 타입을 generic으로 지정할 때 사용
+
+public class McList<E> {
+	
+	//데이터를 저장할 Object배열
+	private Object[] elementData;
+	
+	//elementData의 크기
+	private int capacity = 10;
+	
+	//elementData에 저장된 요소의 개수
+	private int size;
+	
+	public McList() {
+		elementData = new Object[capacity];
+	}
+	
+	public McList(int initialCapacity) {
+		
+		elementData = new Object[capacity];
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

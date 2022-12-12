@@ -1,0 +1,9 @@
+package com.mc.exception.checked;
+
+public class _Exception {
+	
+	public void studyCheckedException() {
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.mc.exception.checked;
+
+import java.net.URL;
+
+public class _Exception {
+	
+	public void studyCheckedException() {
+		
+		URL url = new URL("https://www.naver.com");
+		
+		
+		
+	}
+
+}

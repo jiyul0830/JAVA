@@ -1,0 +1,67 @@
+package com.mc.util.collection.set;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import com.mc.util.collection.dto.Music;
+
+public class _Set {
+	
+	//Set
+	//Set은 집합연산을 위해 만들어진 자료구조
+	//저장되는 값들의 순서를 유지하지 않는다.
+	//저장되는 값들의 중복을 허용하지 않는다.
+	//구현 클래스  : HashSet, LinkedHashSet(순서가 유지되는 Set)
+	
+	public void studySet() {
+		
+		Set<Music> set1 = new HashSet<>();
+		Set<Music> set2 = new HashSet<>();
+	
+		Music music3 = new Music("김경호", "금지된 사랑");
+		Music music4 = new Music("김경호", "금지된 사랑");
+		Music music2 = new Music("윤도현", "사랑했나봐");
+		Music music1 = new Music("백지영", "총 맞은 것 처럼");
+		
+		Music music5 = new Music("김경호", "금지된 사랑");
+		Music music6 = new Music("라나델레이", "썸머타임새드니스");
+		Music music7 = new Music("아델", "롤링인더딥");
+		Music music8 = new Music("박정현", "꿈에");
+		
+		set1.add(music1);
+		set1.add(music2);
+		set1.add(music3);
+		set1.add(music4);
+		
+		set2.add(music5);
+		set2.add(music6);
+		set2.add(music7);
+		set2.add(music8);
+		
+		System.out.println(set1);
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

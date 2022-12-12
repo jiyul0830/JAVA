@@ -1,0 +1,43 @@
+package com.mc.coffeemanager.service;
+
+public class OrderStatus {
+	
+	private int code;
+	private String desc;
+	
+	public static final OrderStatus OK = new OrderStatus(0, "주문 생성 성공");
+	public static final OrderStatus FAIL_CAUSE_SOLDOUT = new OrderStatus(1, "품절로 인한 주문 실패");
+	public static final OrderStatus FAIL_CAUSE_STOCK = new OrderStatus(2, "재고 부족으로 인한 주문 실패");
+	public static final OrderStatus FAIL_CAUSE_SEASON = new OrderStatus(3, "시즌 상품은 시즌 기간에만 구매가 가능합니다.");
+	public static final OrderStatus COMPLITE = new OrderStatus(4, "주문 완료");
+	
+	private OrderStatus(int code, String desc) {
+		this.code = code;
+		this.desc = desc;
+	}
+	
+	public boolean isOk() {
+		return code == OK.code;
+	}
+	
+	public boolean isComplete() {
+		return code == COMPLITE.code;
+	}
+	
+	public boolean isFail() {
+		if(code == FAIL_CAUSE_SOLDOUT.code ||
+		   code == FAIL_CAUSE_STOCK.code ||
+		   code == FAIL_CAUSE_SEASON.code) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public String desc() {
+		return desc;
+	}
+	
+	
+
+}

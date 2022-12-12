@@ -1,0 +1,11 @@
+package com.mc.util.collection.set.mc;
+
+import com.mc.util.collection.dto.Music;
+
+public class McHashSetTest {
+
+	public void studySet() {
+		McHashSet<Music> musicSet = new McHashSet<>();
+	}
+
+}

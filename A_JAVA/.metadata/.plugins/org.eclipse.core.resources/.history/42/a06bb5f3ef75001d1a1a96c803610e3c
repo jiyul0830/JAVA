@@ -1,0 +1,62 @@
+package com.mc.lang.object;
+
+// 모든 클래스는 Object 클래스의 후손클래스이다.
+public class Book {
+	
+	private String title;
+	private Author author;
+	private int price;
+	
+	public Book() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Book(String title, Author author, int price) {
+		super();
+		this.title = title;
+		this.author = author;
+		this.price = price;
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Book other = (Book) obj;
+		if (author == null) {
+			if (other.author != null)
+				return false;
+		} else if (!author.equals(other.author))
+			return false;
+		if (price != other.price)
+			return false;
+		if (title == null) {
+			if (other.title != null)
+				return false;
+		} else if (!title.equals(other.title))
+			return false;
+		return true;
+	}
+	
+	
+	//hashCode : 인스턴스를 식별할 수 있는 식별값을 반환하는 메서드
+	//			만약 두 레퍼런스에 담긴 인스턴스가 같은 객체라면, hashCode의 결과도 같아야한다.
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((author == null) ? 0 : author.hashCode());
+		result = prime * result + price;
+		result = prime * result + ((title == null) ? 0 : title.hashCode());
+		return result;
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,16 @@
+package com.mc.lang.object;
+
+public class Book {
+	
+	private String title;
+	private Author author;
+	private int price;
+	
+	public Book() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	
+
+}

@@ -1,0 +1,27 @@
+package com.mc.g_override_overloading.A_override;
+
+public class Circle {
+	
+	private double radius;
+
+	public double getRadius() {
+		return radius;
+	}
+
+	public void setRadius(double radius) {
+		this.radius = radius;
+	}
+	
+	// Override	: 부모클래스로부터 상속받은 매서드를 재정의
+	// @Override: Override 어노테이션
+	//			  annotation : 클래스가 컴파일 되기 전에 수행되어야 하는 기능을 정의
+	//			  @Override : 해당 매서드가 부모클래스로부터 수행되는 
+	
+	
+	@Override
+	public double calArea() {
+		return Math.PI * radius * radius;
+	}
+	
+
+}

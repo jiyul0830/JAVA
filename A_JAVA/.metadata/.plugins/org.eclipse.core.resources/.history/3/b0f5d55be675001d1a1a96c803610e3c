@@ -1,0 +1,7 @@
+package com.mc.exception.custom;
+
+//UnCheckedException 
+//RuntimeException을 상속 받아 구현
+public class IllegalPriceException extends RuntimeException{
+
+}

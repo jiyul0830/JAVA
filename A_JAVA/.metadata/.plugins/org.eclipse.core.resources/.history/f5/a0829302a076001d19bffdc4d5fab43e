@@ -1,0 +1,9 @@
+package com.mc.util.app;
+
+public class DayCalculator {
+	
+	public void calDDay() {
+		
+	}
+
+}

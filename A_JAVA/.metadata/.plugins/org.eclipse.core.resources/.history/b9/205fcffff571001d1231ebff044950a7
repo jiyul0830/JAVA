@@ -1,0 +1,14 @@
+package com.mc.g_coffeemanager;
+
+public class Coffee {
+	
+	String name;
+	int price;
+	int cost;
+	int stock;
+	int safetyStock;
+	int salesCnt;
+
+	
+
+}

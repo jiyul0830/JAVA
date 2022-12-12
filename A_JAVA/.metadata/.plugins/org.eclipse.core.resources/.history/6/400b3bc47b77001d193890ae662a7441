@@ -1,0 +1,77 @@
+package com.mc.util.collection.list.mc;
+
+import com.mc.util.collection.list.mc.node.Node;
+
+public class McLinkedList<E> {
+	
+	private Node<E> head;  //첫 노드를 저장
+	private int size;
+	
+	public McLinkedList() {}
+	
+	public int size() {
+		return size;
+	}
+	
+	public void add(E e) {
+		
+		Node<E> tmp = head; //노드 이동용 레퍼런스
+		
+		if(size == 0) {
+			head = new Node<E>(null, null, e);
+			size++;
+			return;
+		}
+			
+		while(true) {
+			//다음 노드가 없기 때문에 마지막 노드
+			if(tmp.next() == null) break;
+			tmp = tmp.next();
+		}
+		
+		//찾은 마지막 노드의 다음 노드로 새로운 노드를 추가
+		//새로운 노드의 이전 노드로 찾은 마지막 노드를 지정
+		tmp.setNext(new Node<E>(tmp, null, e));
+		size++;
+	}
+	
+	public E get(int index) {
+		
+		if(index < 0 || index >= size) throw new ArrayIndexOutOfBoundsException("크기가 " + size + "입니다.");
+		
+		Node<E> tmp = head;
+		for (int i = 0; i < index; i++) {
+			tmp = tmp.next();
+		}
+		
+		return tmp.getData();
+	}
+	
+	public E set(int index, E element) {
+		
+		E res = null;
+		Node<E> tmp = head;
+		
+		//index 위치의 노드를 tmp 에 참조
+		for (int i = 0; i < index; i++) {
+			tmp = tmp.next();
+		}
+		
+		res = tmp.getData();
+		tmp.setData(element);
+		return res;
+	}
+	
+	public E remove(int index) {
+		return null;
+	}
+
+	@Override
+	public String toString() {
+		return "";
+	}
+	
+	
+	
+
+}

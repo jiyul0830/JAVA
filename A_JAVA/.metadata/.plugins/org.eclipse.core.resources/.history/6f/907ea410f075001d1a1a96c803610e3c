@@ -1,0 +1,26 @@
+package com.mc.lang.object;
+
+// 모든 클래스는 Object 클래스의 후손클래스이다.
+public class Book {
+	
+	private String title;
+	private Author author;
+	private int price;
+	
+	public Book() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Book(String title, Author author, int price) {
+		super();
+		this.title = title;
+		this.author = author;
+		this.price = price;
+	}
+
+
+	
+	
+	
+
+}

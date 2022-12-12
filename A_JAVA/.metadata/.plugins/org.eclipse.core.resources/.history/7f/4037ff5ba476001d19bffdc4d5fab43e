@@ -1,0 +1,30 @@
+package com.mc.j_inner.instance;
+
+public class Run {
+
+	public static void main(String[] args) {
+		
+		Car car = new Car();
+		
+		//Car 클래스의 inner instance 클래스를 인스턴스화
+		//inner instance 클래스는, 인스턴스를 통해서 생성
+		car.new Builder()
+				.name("차")
+				.price(100000)
+				.size("대형");
+		
+		System.out.println(car);
+
+		Book book = new Book.Builder()
+				.name("책")
+				.price(10000)
+				.author("황지우")
+				.builder();
+		
+		
+		
+		
+		
+	}
+
+}

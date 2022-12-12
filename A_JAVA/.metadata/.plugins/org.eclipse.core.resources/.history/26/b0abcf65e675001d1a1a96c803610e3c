@@ -1,0 +1,9 @@
+package com.mc.exception.custom;
+
+//UnCheckedException 
+//RuntimeException을 상속 받아 구현
+public class IllegalPriceException extends RuntimeException{
+
+	private static final long serialVersionUID = 7520343738510302872L;
+
+}

@@ -1,0 +1,49 @@
+package com.mc.util.collection.list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.mc.util.collection.dto.Student;
+
+public class Sort {
+	
+	public static void main(String[] args) {
+		
+		List<Student> students = new ArrayList<>();
+		students.add(new Student("강유리",11));
+		students.add(new Student("경제원",11));
+		students.add(new Student("권용구",11));
+		students.add(new Student("김시은",11));
+		students.add(new Student("방민성",11));
+		students.add(new Student("배재현",11));
+		students.add(new Student("서지현",11));
+		students.add(new Student("신비",11));
+		students.add(new Student("신유진메니저",11));
+		students.add(new Student("여태양",11));
+		students.add(new Student("유승민",11));
+		students.add(new Student("윤혁",11));
+		students.add(new Student("이대희",11));
+		students.add(new Student("이도명",11));
+		students.add(new Student("이리안",11));
+		students.add(new Student("이준형",11));
+		students.add(new Student("장이주",11));
+		students.add(new Student("정다솜",11));
+		students.add(new Student("진혜원",11));
+		students.add(new Student("최호근",11));
+		students.add(new Student("황현중",11));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
